@@ -1,0 +1,13 @@
+/* Card.module.css */
+.slide-fwd-top {
+    animation: slide-fwd-top 0.6s ease-in-out both;
+  }
+  
+  @keyframes slide-fwd-top {
+    0% {
+      transform: translateZ(0) translateY(0);
+    }
+    100% {
+      transform: translateZ(160px) translateY(-100px);
+    }
+  }
